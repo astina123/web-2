@@ -1,2 +1,31 @@
 1. Apa yang dimaksud dengan dokumen root?
-    D
+    Dokumen root adalah dokuemen atau file utama yang berfungsi sebagai titik awal atau dasar dalam 
+    suatu sistem file, struktur direktori, atau sistem dokumen.
+
+2. Pada apache web server, apakah dokumen root harus teretak dalam direktori C:\xampp\htdocs? Jelaskan jawaban anda
+    Tidak, dokuemn root pada apache web server tidak harus selalu terletak di C:\xampp\htdocs. 
+    Karena dokumen dokumen root hanyalah direktori yang dikonfigurasikan dalam file pengaturan apache.
+
+3. Jelaskan apa yang dimaksud dengan git : init, clone, remote, add, commit push dan checkout!
+   - Git init: Perintah untuk membuat repository git baru didalam folder proyek, digunakan untuk mengubah
+     folder biasa menjadi repository git.
+   - Git clone: Perintah untuk menyalin repository git yang sudah dari remote ke komputer lokal,
+     digunakan untuk mengunduhproyek dari github, gitlab, atau server git lainnya
+   - Git remote: Perintah untuk mengelola koneksi ke repository jarak jauh (remote repository),
+     digunakan untuk menambahkan, menghapus, atau melihat daftar remote yan terhubung.
+   - Git add: Perintah untuk menambahkan perubahan ke dalam staging area sebelum melakukan commit.
+     Digunakan untuk menandai file yan siap untuk disimpan repository.
+   - Git commit: Perintah untuk menyimpan perubahan yang sudah ditambahkan ke staging area ke dalam repository.
+   - Git push: Perintah untuk mengunggah (mendorong) commit yang telah dibuat ke remote repository.
+   - Git checkout: Perintah untuk berpindah antar branch atau commit tertentu dalam repository.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab1
+   - GitHub lebih populer dan lebih banyak digunakan untuk proyek open source serta memiliki komunitas besar.
+   - Sedangkan GitLab lebih cocok untuk perusahaan yang ingin mengelola koed sumber dengan fitur keamanan CI/CD bawaan serta opsi self hosted.
+
+5. Apa bedanya variable user dengan variable system?
+    Variable user hanya berlaku untuk pengguna tertentu, dapat diuba tanpa hak admin, dan disimpan dalam profil pengguna.
+    Sedangkan variable system berlaku untuk semua pengguna, membutuhkan hak admin untuk diubah, dan disimpan dalam konfigurasi sistem.
+
+6. Apa persamaan variable system dengan variable constant?
+    Persamaannya adalah dapat menyimpan nilai, mempengaruhi program, ditentukan sebelum digunakan, dan bisa bersifat global.
